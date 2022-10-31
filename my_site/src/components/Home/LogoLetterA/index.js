@@ -1,10 +1,10 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-import LogoS from '../../../assets/images/undraw_developer.svg'
+import LogoS from '../../../assets/images/A.svg'
 import './index.scss'
 
-const Logo = () => {
+const LogoLetterA = () => {
   const bgRef = useRef()
   const outlineLogoRef = useRef()
   const solidLogoRef = useRef()
@@ -67,4 +67,4 @@ const Logo = () => {
   )
 }
 
-export default Logo
+export default LogoLetterA
