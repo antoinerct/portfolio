@@ -39,7 +39,8 @@
 }
 
 .about-page,
-.contact-page {
+.contact-page,
+.skill-page {
     .text-zone {
         position: absolute;
         left: 10%;
@@ -50,37 +51,87 @@
         display: table-cell;
         max-height: 90%;
 
+        h1 {
+            font-size: 53px;
+            font-family: 'Coolvetica';
+            color: #fff;
+            font-weight: 400;
+            margin-top: 0;
+            position: relative;
+            // margin-bottom: 30px;
+            left: 10px;
+
+            &::before {
+                // content: '<h1>';
+                font-family: 'La Belle Aurore';
+                font-size: 18px;
+                color: #77C4D3;
+                position: absolute;
+                margin-top: -10px;
+                left: -10px;
+                opacity: 0.6;
+                line-height: 18px;
+            }
+
+            &::after {
+                // content: '</h1>';
+                font-family: 'La Belle Aurore';
+                font-size: 18px;
+                color: #77C4D3;
+                line-height: 18px;
+                position: absolute;
+                left: -30px;
+                bottom: -20px;
+                margin-left: 20px;
+                animation: fadeIn 1s 1.7s backwards;
+
+                opacity: 0.6;
+            }
+             img {
+                width: 32px;
+                margin-left: 20px;
+                opacity: 0;
+                height: auto;
+                animation: rotateIn 1s linear both;
+                animation-delay: 1.4s;
+            }
+        }
+        
         // h1 {
+        //     color: #fff;
         //     font-size: 53px;
+        //     margin: 0;
         //     font-family: 'Coolvetica';
-        //     color: #ffd700;
         //     font-weight: 400;
-        //     margin-top: 0;
-        //     position: relative;
-        //     margin-bottom: 40px;
-        //     left: 10px;
-
+        
         //     &::before {
-        //         content: '<h1>';
         //         font-family: 'La Belle Aurore';
+        //         color: #ffd700;
         //         font-size: 18px;
         //         position: absolute;
-        //         margin-top: -10px;
-        //         left: -10px;
+        //         margin-top: -40px;
+        //         left: 15px;
         //         opacity: 0.6;
-        //         line-height: 18px;
         //     }
-
+        
         //     &::after {
-        //         content: '</h1>';
         //         font-family: 'La Belle Aurore';
+        //         color: #ffd700;
         //         font-size: 18px;
-        //         line-height: 18px;
         //         position: absolute;
-        //         left: -30px;
-        //         bottom: -20px;
+        //         margin-top: 18px;
         //         margin-left: 20px;
+        //         animation: fadeIn 1s 1.7s backwards;
         //         opacity: 0.6;
+        //     }
+        
+        //     img {
+        //         width: 32px;
+        //         margin-left: 20px;
+        //         opacity: 0;
+        //         height: auto;
+        //         animation: rotateIn 1s linear both;
+        //         animation-delay: 1.4s;
         //     }
         // }
         p {
@@ -106,7 +157,7 @@
     }
     .text-animate-hover {
         &:hover {
-            color: #fff;
+            color: #77C4D3;
         }
     }
 
