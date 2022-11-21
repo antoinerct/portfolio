@@ -4,9 +4,9 @@
     top: 46%;
     transform: translateY(-50%);
     vertical-align: middle;
-    display: table-cell;
+    display: block;
     max-height: 90%;
-}
+    margin-top: 45px;
 
 h1 {
     color: #fff;
@@ -45,7 +45,7 @@ h1 {
         animation-delay: 1.4s;
     }
 }
-
+}
 
 
 .break {
@@ -58,7 +58,7 @@ h1 {
     .text-zone2 {
         width: -webkit-fill-available;
         right: 10%;
-        margin-top: 16px;
+        margin-top: 45px;
     }
     
   }

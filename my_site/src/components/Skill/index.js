@@ -11,7 +11,7 @@ const Skill = () => {
     const nameArray = ['C', 'o', 'm', 'p', 'é', 't', 'e', 'n', 'c', 'e', 's'];
 
     return (
-        <div className='allItem'>
+        <div className='allItem skill-page'>
             <div className='text-zone1'>
                 <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={16} />

@@ -51,8 +51,6 @@ const About = () => {
                 </h1>
                 <Bubble logo={EpitechLogo} title={"Epitech, Lyon"} date={["2017", "2022"]} desc={"La pédagogie d'Epitech se résume en quelques mots, l'apprentissage par la pratique. Les étudiants sont obligés de découvrir eux-mêmes certaines technologies ou principes de programmation les forçant à travaillé en autonomie pour être capable de se former soit même lorsqu'une nouvelle technologie arrive sur le marché"} />
                 <div className='break' />
-                </div>
-                <div className='text-zone2'>
 
                 <h1>
                     <AnimatedLetters 

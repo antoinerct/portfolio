@@ -174,7 +174,8 @@
   
       &.contact-page,
       &.about-page,
-      &.portfolio-page {
+      &.portfolio-page
+      &.skill-page {
         .text-zone {
           position: initial;
           transform: none;
@@ -182,7 +183,8 @@
           display: block;
           padding: 20px;
           box-sizing: border-box;
-        }
+        }        
+
       }
       .text-zone {
         position: initial;
