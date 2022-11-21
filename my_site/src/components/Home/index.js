@@ -15,7 +15,9 @@ const Home = () => {
     const jesuisArray = ['J', 'e', ' ', 's', 'u', 'i', 's', ' '];
     const nameArray = ['A','n', 't', 'o', 'i', 'n', 'e' , ' ' ];
     const lastNameArray = ['R','i', 'c', 'o', 'u', 'r', 't' , ',' ];
-    const jobArray = ['D', 'é', 'v', 'e', 'l', 'o', 'p','p','e','u','r', ' ', 'F', 'u','l','l',' ','S','t','a','c','k'];
+    const jobArray = ['D', 'é', 'v', 'e', 'l', 'o', 'p','p','e','u','r',' '];
+    const fullArray = ['F', 'u','l','l',' '];
+    const stackArray = ['S','t','a','c','k'];
     
     useEffect(() => {
             setTimeout(() => {
@@ -37,6 +39,8 @@ const Home = () => {
                     <AnimatedLetters letterClass={letterClass} strArray={lastNameArray} idx={23} />
                     <br />
                     <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={32} />
+                    <AnimatedLetters letterClass={letterClass} strArray={fullArray} idx={36} />
+                    <AnimatedLetters letterClass={letterClass} strArray={stackArray} idx={37} />
                 </h1>
                 {/* <h2> Frontend Developer / Javascript Expert </h2> */}
                 <Link to="/contact" className='flat-button'>CONTACTEZ MOI</Link>

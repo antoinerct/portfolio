@@ -12,8 +12,14 @@ const About = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
 
-    const diplomeArray = ['D', 'i', 'p', 'l', 'o', 'm', 'e','s',' ','e','t',' ', 'F', 'o', 'r','m','a','t','i','o','n','s'];
-    const stageArray = ['S', 't', 'a', 'g', 'e', 's', ' ','e','n',' ','E','n', 't', 'r', 'e','p','r','i','s','e'];
+    const diplomeArray = ['D', 'i', 'p', 'l', 'o', 'm', 'e','s',' '];
+    const etArray = ['e','t',' '];
+    const formationArray = ['F', 'o', 'r','m','a','t','i','o','n','s'];
+    
+    const stageArray = ['S', 't', 'a', 'g', 'e', 's', ' '];
+    const enArray = ['e','n',' '];
+    const entrepriseArray = ['E','n', 't', 'r', 'e','p','r','i','s','e'];
+    
     const passionArray = ['C', 'e', 'n', 't', 'r', 'e', 's',' ','d','\'','i','n', 't', 'é','r', 'ê','t'];
     
     useEffect(() => {
@@ -25,20 +31,43 @@ const About = () => {
     return (
         <>
         <div className=' about-page'>
-            <div className='text-zone'>
+            <div className='text-zone2'>
                 <h1>
                     <AnimatedLetters 
                         letterClass={letterClass}
                         strArray={diplomeArray}
                         idx={15}
                     />
+                                        <AnimatedLetters 
+                        letterClass={letterClass}
+                        strArray={etArray}
+                        idx={16}
+                    />
+                                        <AnimatedLetters 
+                        letterClass={letterClass}
+                        strArray={formationArray}
+                        idx={17}
+                    />
                 </h1>
                 <Bubble logo={EpitechLogo} title={"Epitech, Lyon"} date={["2017", "2022"]} desc={"La pédagogie d'Epitech se résume en quelques mots, l'apprentissage par la pratique. Les étudiants sont obligés de découvrir eux-mêmes certaines technologies ou principes de programmation les forçant à travaillé en autonomie pour être capable de se former soit même lorsqu'une nouvelle technologie arrive sur le marché"} />
                 <div className='break' />
+                </div>
+                <div className='text-zone2'>
+
                 <h1>
                     <AnimatedLetters 
                         letterClass={letterClass}
                         strArray={stageArray}
+                        idx={15}
+                    />
+                        <AnimatedLetters 
+                        letterClass={letterClass}
+                        strArray={enArray}
+                        idx={15}
+                    />
+                        <AnimatedLetters 
+                        letterClass={letterClass}
+                        strArray={entrepriseArray}
                         idx={15}
                     />
                 </h1>

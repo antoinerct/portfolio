@@ -10,7 +10,8 @@ const Bubble = ({title, date, desc, logo}) => {
             <div className='title-container'>
                 <div className='iner-title-container'>
                     <span className='title'> {title}</span>
-                    <span className='date' >  ({date[0]} - {date[1]})</span>
+                    <br />
+                    <span className='date' >  {date[0]} - {date[1]}</span>
                 </div>
                 <img className='logo' src={logo} />
             </div>

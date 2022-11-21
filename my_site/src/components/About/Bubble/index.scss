@@ -4,8 +4,9 @@
     background-color: #2b2e3a;
     display: flex;
     flex-direction: column;
-    width: 800px;
+    max-width: 800px;
     margin-top: 16px;
+    margin-bottom: 8px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     animation: fadeIn 1s 1.7s backwards;
 
@@ -30,7 +31,7 @@
     }
 
     .iner-title-container {
-        display: flex;
+        // display: flex;
         flex-direction: row;
         align-items: center;
     }
@@ -44,7 +45,6 @@
     .date {
         font-style: italic;
         font-size: 22px;
-        margin-left: 8px;
         color: darkgrey;
     }
 

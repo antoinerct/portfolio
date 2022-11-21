@@ -1,3 +1,13 @@
+.text-zone2 {
+    position: absolute;
+    left: 10%;
+    top: 46%;
+    transform: translateY(-50%);
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+}
+
 h1 {
     color: #fff;
     font-size: 53px;
@@ -36,6 +46,19 @@ h1 {
     }
 }
 
+
+
 .break {
     margin-top: 40px;
 }
+
+@media screen and (max-width: 1200px) {
+
+
+    .text-zone2 {
+        width: -webkit-fill-available;
+        right: 10%;
+        margin-top: 16px;
+    }
+    
+  }
